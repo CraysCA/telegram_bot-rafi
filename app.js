@@ -1,3 +1,21 @@
+const express = require('express');
+
+
+const app = express();
+app.listen(4000);
+
+app.get("/", (req, res)=>{
+    res.send("Online");
+})
+
+
+
+
+
+
+
+
+
 const Telegraf = require('telegraf');
 
  const bot = new Telegraf('1467528500:AAE1qHi8R97qsDfVdUQsyolZrz9QFgORSZ8');

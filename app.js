@@ -14,8 +14,6 @@ app.get("/", (req, res)=>{
 
 
 
-
-
 const Telegraf = require('telegraf');
 const Extra = require('telegraf/extra');
  const bot = new Telegraf('1467528500:AAE1qHi8R97qsDfVdUQsyolZrz9QFgORSZ8');
